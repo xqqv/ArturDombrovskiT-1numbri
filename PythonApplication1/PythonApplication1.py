@@ -12,12 +12,13 @@ for i in range(n):
 
 #2
 r = int(input("Sisestage number: "))
-result = 1
+result = 0
 for i in range(0, r+1):
-    if i % 2 != 0:
-        result *= i
-print(result)
-
+    if i % 2 == 0:
+        result =i
+        print(i)
+        
+      
 #3
 import random
 
